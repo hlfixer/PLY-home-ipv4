@@ -27,3 +27,5 @@ rm -rf ./feeds/small/luci-app-bypass
 rm -rf ./feeds/small/luci-app-homeproxy
 rm -rf feeds/packages/net/{alist,adguardhome,mosdns,sing*,smartdns}
 rm -rf feeds/packages/utils/v2dat
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
