@@ -18,3 +18,12 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 
 # Modify hostname
 sed -i 's/OpenWrt/PLY/g' package/base-files/files/bin/config_generate
+rm -rf ./feeds/luci/applications/luci-app-mosdns
+rm -rf ./feeds/luci/applications/luci-app-smartdns
+rm -rf ./feeds/luci/applications/luci-app-v2raya
+rm -rf ./feeds/small/luci-app-mosdns
+rm -rf ./feeds/small/luci-app-mosdns
+rm -rf ./feeds/small/luci-app-bypass
+rm -rf ./feeds/small/luci-app-homeproxy
+rm -rf feeds/packages/net/{alist,adguardhome,mosdns,sing*,smartdns}
+rm -rf feeds/packages/utils/v2dat
